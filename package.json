@@ -1,5 +1,6 @@
 {
   "name": "272-mine",
+  "homepage": "https://hardcoresam.github.io/CMPE-272-Marketplace",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
