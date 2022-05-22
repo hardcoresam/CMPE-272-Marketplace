@@ -22,7 +22,7 @@ export default function ListOfUsers(props) {
     const getListOfUsers = (event) => {
         let formData = new FormData();
 
-        const url = "http://saikrishna.cf/listOfUsers.php";
+        const url = "https://thirumalasai.000webhostapp.com/listOfUsers.php";
         //const url = "https://tutorawayphp.azurewebsites.net/createUser.php";
 
         axios({

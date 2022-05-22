@@ -11,7 +11,7 @@ export default function ContactUs(props) {
     const getContactDetails = (event) => {
         let formData = new FormData();
 
-        const url = "http://saikrishna.cf/contactus.php";
+        const url = "https://thirumalasai.000webhostapp.com/contactus.php";
         // const url = "http://saikrishna.cf/createUser.php";
 
         axios({

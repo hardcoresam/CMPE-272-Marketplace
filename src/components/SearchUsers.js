@@ -35,7 +35,7 @@ export default function SearchUsers(props) {
         formData.append("email", userProfileForm.email);
         formData.append("phoneNumber", userProfileForm.phoneNumber);
 
-        const url = "http://saikrishna.cf/searchUser.php";
+        const url = "https://thirumalasai.000webhostapp.com/searchUser.php";
         //const url = "https://tutorawayphp.azurewebsites.net/createUser.php";
 
         axios({

@@ -30,7 +30,7 @@ export default function CreateUser(props) {
         formData.append("cellPhone", userProfileForm.cellPhone);
         
         //const url = "http://localhost/createUser.php";
-        const url = "http://saikrishna.cf/createUser.php";
+        const url = "https://thirumalasai.000webhostapp.com/createUser.php";
 
         axios({
             method: "post",
