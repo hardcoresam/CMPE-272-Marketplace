@@ -19,24 +19,24 @@ import LastVisitedProducts from './components/LastVisitedProducts';
 function App() {
   toast.configure();
   return (
-    <BrowserRouter>
-          <NavBar />
-          <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/home' element={<Home />} />
-            <Route path='/about' element={<About />} />
-            <Route path='/news' element={<News />} />
-            <Route path='/contactus' element={<ContactUs />} />
-            <Route path='/products' element={<Products />} />
-            <Route path='/lastvisitedproducts' element={<LastVisitedProducts />} />
-            <Route path='/topproducts' element={<TopProducts />} />
-            <Route path='/login' element={<Login />} />
-            <Route path='/createuser' element={<CreateUser />} />
-            <Route path='/searchusers' element={<SearchUsers />} />
-            <Route path='/listofusers' element={<ListOfUsers />} />
-            <Route path='/product/:flavour' element={<ProductDetail />} />
-            {/* <Route path='*' element={<NoSuchPage />} /> */}
-          </Routes>
+    <BrowserRouter basename={window.location.pathname || ""}>
+      <NavBar />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/home' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/news' element={<News />} />
+        <Route path='/contactus' element={<ContactUs />} />
+        <Route path='/products' element={<Products />} />
+        <Route path='/lastvisitedproducts' element={<LastVisitedProducts />} />
+        <Route path='/topproducts' element={<TopProducts />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/createuser' element={<CreateUser />} />
+        <Route path='/searchusers' element={<SearchUsers />} />
+        <Route path='/listofusers' element={<ListOfUsers />} />
+        <Route path='/product/:flavour' element={<ProductDetail />} />
+        {/* <Route path='*' element={<NoSuchPage />} /> */}
+      </Routes>
     </BrowserRouter>
   );
 }
