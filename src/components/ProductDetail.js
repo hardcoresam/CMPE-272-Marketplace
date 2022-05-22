@@ -45,7 +45,7 @@ export default function ProductDetail(props) {
         formData.append("userName", userName);
         formData.append("flavour", flavour);
 
-        const url = "http://saikrishna.cf/submitRating.php";
+        const url = "https://saikrishna.cf/submitRating.php";
         //const url = "https://tutorawayphp.azurewebsites.net/createUser.php";
 
         axios({
@@ -73,7 +73,7 @@ export default function ProductDetail(props) {
             formData.append("flavour", flavour);
             //formData.append("userId", userId);
 
-            const url = "http://saikrishna.cf/getReviews.php";
+            const url = "https://saikrishna.cf/getReviews.php";
             //const url = "https://tutorawayphp.azurewebsites.net/createUser.php";
 
             axios({
